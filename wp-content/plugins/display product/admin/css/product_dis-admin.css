@@ -1,0 +1,29 @@
+
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+.custom_container{padding: 0 15px;margin: 0 15px;}
+.custom_container .row{--bs-gutter-x: 1.5rem;--bs-gutter-y: 0;display: flex;flex-wrap: wrap;margin-top: calc(-1 * var(--bs-gutter-y));margin-right: calc(-.5 * var(--bs-gutter-x));margin-left: calc(-.5 * var(--bs-gutter-x));}
+.custom_container .col-12{flex: 0 0 auto;width: 100%;margin:5px 0;}
+.custom_container .col-12 .page_title{display: block;width: 100%;margin:18px 0;padding: 0;}
+.custom_container .col-12 .page_title h2{display: block;margin: 0;padding: 0;font-size: 24px;font-weight:600;}
+.custom_container .col-12 .custom_group{display: flex;flex-direction: row;justify-content:flex-start;align-items:center;max-width: 100%;}
+.custom_container .col-12 label{display: inline-block;font-size:16px;font-weight: 400;width:20%;}
+.custom_container .col-12 input,.custom_container .col-12 select{width:50%;}
+.custom_container .col-6{flex: 0 0 auto;width:30%;margin: 5px 0;}
+.custom_container .col-6 .custom_group{width: 100%;text-align: center;margin: 0 auto;}
+.custom_container .col-6 .custom_group .btn{display: inline-block;width:auto;margin:8px auto;padding: 6px 12px;line-height: 1.42857143;border-radius: 4px;outline: none;border: 2px solid #ccc;text-align: center;white-space: nowrap;vertical-align: middle;font-size:16px;font-weight:500;cursor: pointer;color: #333;background-color: #fff;}
+.custom_container .col-6 .custom_group .btn:hover,.custom_container .col-6 .custom_group .btn:focus,.custom_container .col-6 .custom_group .btn:focus-visible,.custom_container .col-6 .custom_group .btn:active{border:2px solid #000;outline: none;}
+.ui-datepicker-calendar {display: none;}
+.ui-datepicker-month {display: none;}
+.ui-datepicker-next,.ui-datepicker-prev {display:none;}
+.admin_list_page{display: block;margin:10px 0;padding:5px;}
+.admin_list_page .list_page{display: block;margin:10px 0;padding:5px;}
+.admin_list_page .title{display: block;margin:5px 0;padding: 0;}
+.admin_list_page .title h3{display: block;margin:0 0;padding:0px;font-size: 26px;font-weight: 600;}
+.admin_list_page .product_des tbody td a.links{text-decoration: none;color: #0087e6;}
+.admin_list_page .product_des tbody td a.links:hover{color: #000;}
+.error{display: block;font-size: 14px;font-weight: 500;color: #ff0000;}
+#bottom_top_field,#comman_top_field,#office,#house{display: none;}
